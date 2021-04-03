@@ -1,8 +1,8 @@
 import Logo from '../../assets/logo.svg';
 
-import { NewTransactioButton } from '../NewTransactionButton';
-
 import { Container, Content } from "./styles";
+
+import { NewTransactioButton } from '../NewTransactionButton';
 
 export function Header() {
   return (

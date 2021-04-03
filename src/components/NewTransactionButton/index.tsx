@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import { NewTransactioModal } from "../NewTransactionModal";
-
 import { Button } from "./styles";
+
+import { NewTransactioModal } from "../NewTransactionModal";
 
 export function NewTransactioButton() {
   const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
